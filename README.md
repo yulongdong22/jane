@@ -11,8 +11,8 @@ Further details about the design of this system can be found in our [paper](http
 ### Description of folders/file organization:
  * box_design: Design using protocase software for box that houses the Microzed module mounted on the carrier board, all 8 breakout boards, and the power supply.
  * docs: document describing how to get started with overlay development and images/logos
- * eagle: All eagle design files for printed circuit boards involved in the system. PCB design for AC supply module, carrier board, and breakout boards included.
- * jane: this folder contains the jupyter notebook, the python scripts and the firmware that needs to be installen in the Microzed module.
+ * kicad: All kicad design files for printed circuit boards involved in the system. PCB design for AC supply module, carrier board, and breakout boards included.
+ * jane: this folder contains the jupyter notebook, the python scripts and the firmware that needs to be installed in the Microzed module.
  * labscript_suite: All code associated with the Labscript Suite that allows Jane to be integrated. File structure within this folder is accurate to how they should be placed in Labscript folders on a lab computer. Includes device driver and janeapi, modified from the Spincore API.
  * src: source files from project in Vivado, all files necessary to regenerate the project.
 
@@ -20,9 +20,6 @@ Further details about the design of this system can be found in our [paper](http
  * [Building the hardware](docs/build_hardware.md)
  * [Loading the firmware](docs/firmware_installation.md)
  * [Configuring Labscript](docs/configure_labscript.md)
- 
+
 ## For developers:
 * [Overlay design](docs/overlay_development.md)
-
-
-
