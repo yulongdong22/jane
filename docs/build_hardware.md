@@ -1,11 +1,11 @@
 # Building the Hardware:
- * In the folder [eagle](eagle), there are three separate PCB designs: the carrier board, the breakout board, and the AC supply module design.
+ * In the folder [kicad](../kicad), there are three separate PCB designs: the carrier board, the breakout board, and the AC supply module design.
  You will need to fabricate 1 carrier board, 1 AC supply board, and 8 breakout boards to assemble Jane.
- The bill of materials for each PCB is also included in the [eagle](eagle) folder.
- * The box that will house all the PCBs and the Microzed module is shown below, and we provide a Protocase Designer file in the folder [box_design](box_design).
- 
+ The bill of materials for each PCB is also included in the [kicad](../kicad) folder.
+ * The box that will house all the PCBs and the Microzed module is shown below, and we provide a Protocase Designer file in the folder [box_design](../box_design).
+
  <p align="center"><img src="images/box_screenshot.png" width="400" alt="Jane enclosure"></p>
- 
+
  ## Assembly:
   * Install the Microzed module onto the carrier board.
   * Mount the AC supply board onto the four posts on the bottom interior of the box main body using #6-32 screws.
@@ -23,7 +23,7 @@
   * Connect the other side of the ribbon cables 5-8 to the corresponding carrier board connectors (labeled SV5-SV8).
 
  <p align="center"><img src="images/PCB_bottom_screenshot.png" width="500" alt="Bottom of carrier PCB"></p>
-  
+
   * Connect ribbon cables 1-4 to connectors SV1-SV4 on the carrier board.
   * Secure the carrier board with the Microzed module onto the front panel of the box.
 
