@@ -1,7 +1,7 @@
 <p align="center"><img src="docs/images/jane_logo.png" /></p>
 
 
-##Study /rev2.0/kicad/AC_supply_module
+## Study /rev2.0/kicad/AC_supply_module
 
 --------------------------------------------------------------------------------
 ## Project Description:
